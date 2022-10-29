@@ -1,0 +1,75 @@
+.banner__imagem--1 {
+    background: url("../../img/beach-horizontal.jpg") no-repeat center / cover;
+    height: calc(100vh - 72px);
+    width: 100%;
+}
+
+.banner__imagem--2 {
+    background: url("../../img/dream.jpg") no-repeat center / cover;
+    height: calc(100vh - 72px);
+    width: 100%;
+}
+
+.banner__imagem--3 {
+    background: url("../../img/country.jpg") no-repeat center / cover;
+    height: calc(100vh - 72px);
+    width: 100%;
+}
+
+.banner__imagem--4 {
+    background: url("../../img/guitar.jpg") no-repeat center / cover;
+    height: calc(100vh - 72px);
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__imagem--1 {
+        height: calc(100vh - 51px);
+        width: calc(100% + 4rem);
+    }
+
+    .banner__imagem--2 {
+        height: calc(100vh - 51px);
+        width: calc(100% + 4rem);
+    }
+    .banner__imagem--3 {
+        height: calc(100vh - 51px);
+        width: calc(100% + 4rem);
+    }
+    .banner__imagem--4 {
+        height: calc(100vh - 51px);
+        width: calc(100% + 4rem);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagem--1 {
+        height: calc(100vh - 72px);
+    }
+
+    .banner__imagem--2 {
+        height: calc(100vh - 72px);
+    }
+    .banner__imagem--3 {
+        height: calc(100vh - 72px);
+    }
+    .banner__imagem--4 {
+        height: calc(100vh - 72px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__imagem--1 {
+        width: 100%;
+    }
+
+    .banner__imagem--2 {
+        width: 100%;
+    }
+    .banner__imagem--3 {
+        width: 100%;
+    }
+    .banner__imagem--4 {
+        width: 100%;
+    }
+}

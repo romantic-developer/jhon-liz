@@ -1,0 +1,65 @@
+.fotografia__imagem {
+    background: lightslategray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    height: 300px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.fotografia__imagem--1 {
+    background-image: url("../../img/jhon-2.jpg");
+}
+
+.fotografia__imagem--2 {
+    background-image: url("../../img/compass.jpg");
+}
+
+.fotografia__imagem--3 {
+    background-image: url("../../img/liz-2.jpg");
+}
+
+.fotografia__imagem--4 {
+    background-image: url("../../img/jhon-1.jpg");
+}
+
+.fotografia__imagem--5 {
+    background-image: url("../../img/liz-1.jpg");
+}
+
+.fotografia__imagem--6 {
+    background-image: url("../../img/jhon-kid-2.jpg");
+}
+
+.fotografia__imagem--7 {
+    background-image: url("../../img/liz-kid.jpg");
+}
+
+.fotografia__imagem--8 {
+    background-image: url("../../img/soul-1.jpeg");
+}
+
+.fotografia__imagem--9 {
+    background-image: url("../../img/soul-2.jpg");
+}
+
+.fotografia__imagem--10 {
+    background-image: url("../../img/soul-3.jpg");
+}
+
+@media screen and (min-width: 0) {
+    .fotografia__imagem {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .fotografia__imagem {
+        height: 300px;
+        width: 300px;
+    }
+}

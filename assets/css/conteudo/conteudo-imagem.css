@@ -1,0 +1,7 @@
+.conteudo__imagem {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    height: 400px;
+}

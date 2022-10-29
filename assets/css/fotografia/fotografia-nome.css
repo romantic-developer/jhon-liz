@@ -1,0 +1,17 @@
+.fotografia__nome {
+    color: purple;
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+}
+
+.fotografia__nome--sun::after {
+    content: "☀️";
+}
+
+.fotografia__nome--moon::after {
+    content: "🌙";
+}
+
+.fotografia__nome--star::after {
+    content: "🌠"
+}
